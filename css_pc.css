@@ -1,0 +1,154 @@
+html {
+    높이 : 자동! 중요한;
+    배경 : linear-gradient (to bottom, var (-color-1), var (-color-2), var (-color-3));
+}
+몸 {
+    배경 : 투명;
+}
+
+/ * 로고 * /
+헤더 .row> div : nth-child (1)> a {
+    배경 반복 : 반복 없음; 디스플레이 : 블록; 너비 : var (-logo-Width); 높이 : var (-logo-Height);
+    배경 이미지 : var (-logo-URL); 
+}
+header .row> div : nth-child (1)> a img { 
+    디스플레이 : 없음; 
+}
+
+/ * DefaultColor * /
+header # header-bar {margin-top : 0.2em; 여백 하단 : 1em; padding-right : 30px; 패딩-왼쪽 : 30px; }
+
+/ * 헤더 바 * /
+header # header-bar> .row {
+    padding-top : 0.3em; padding-bottom : 0.3em; border-top : 4px 단색 var (-color-5);
+    배경 : -webkit-linear-gradient (45deg, var (-color-3) 0 %, var (-color-5) 11 %, var (-color-2) 100 %);
+    border-bottom : 2px 단색 var (-color-1); border-right : 2px solid var (-color-1)}
+
+/ * 광고 태그 * /
+header # header-bar # header-top-notice strong.notice-badge {
+   배경 : var (-color-4); 패딩 : 4px 8px; 색상 : var (-color-1); 글꼴 두께 : 굵게
+}
+
+/ * 눈 위치 * /
+# article-list # article-option-area> # article-option-area-toggle-btn {position : relative; 오른쪽 : 14px; }
+
+/ * 핫 포스트 배경 * /
+# article-list> .article-list-row.hot { 
+    background : -webkit-linear-gradient (135deg, var (-color-3) 0 %, var (-color-5) 11 %, var (-color-0) 40 %, var (-color- 0) 90 %, var (-색상 -5) 95 %, var (-색상 -3) 100 %); 
+}
+
+/ * tgd 메뉴 상자 * /
+#main .menu-wrapper> .header {
+    배경 : -webkit-linear-gradient (45deg, var (-color-3) 10 %, var (-color-5) 100 %);
+    색상 : var (-color-0); 패딩 : 0.45em 1.4em 0.45em 1em; 글꼴 두께 : 굵게; 테두리 반경 : 10px 10px 0 0;}
+#main .menu-wrapper> a> em {color : var (-color-3);}
+#main .menu-wrapper> a> i.fa.fa-square {color : var (-color-3); }
+/ * 스케줄은 식별 용 * /
+#main .menu-wrapper> .header> a {
+  색상 : var (-color-0);
+}
+
+/ * 탐색 상자 테두리 제거 * /
+헤더 # header-bar> .row,
+#main .menu-wrapper,
+#main # main-content> div.frame {
+  오른쪽 테두리 : 없음;
+  border-bottom : 없음;
+  테두리 반경 : 10px 10px 000;
+}
+
+/ * 탐색 상자 범주 배포 * /
+#main .menu-wrapper .spacer {
+  배경 : rgba (95,02,22,0);
+  높이 : 4px;
+}
+
+/ * 주 그림자 * /
+header # header-bar> .row {
+  상자 그림자 : 3px 0px 10px rgba (0, 02, 22, 0.2);
+  테두리 반경 : 00 15px 15px;
+}
+#main # main-content> div.frame {
+    상자 그림자 : 3px 0px 10px rgba (0, 02, 22, 0.2);
+    테두리 반경 : 00 15px 15px;
+    배경 : -webkit-linear-gradient (135deg, var (-color-0) 0 %, var (-color-0) 99 %, var (-color-5) 99 %, var (-color- 3) 100 %);
+}
+
+/ * 마우스를 올린 후 알림 * /
+# article-list> .article-list-row.notice : hover {애니메이션 : 30 초 anim_hovered_background; }
+
+.pagination> li> a : hover {애니메이션 : 무한 AquaLinkBG 1.5s; }
+.pagination> .active> a,
+.pagination> .active> a : focus,
+.pagination> .active> a : hover,
+.pagination> .active> span,
+.pagination> .active> span : focus,
+.pagination> .active> span : hover
+{배경색 : var (-color-4); 테두리 색상 : var (-color-4); }
+
+# article-content-wrapper> .header {border-top : 3px solid var (-color-4); 배경 : var (-color-5); }
+# article-content-wrapper> .footer {border-bottom : 3px solid var (-color-4); 배경 : var (-color-5); }
+# article-list # article-list-category> a {display : inline-block; 패딩 : 11px 16px; 배경 : var (-color-5); 텍스트 장식 : 없음; 글꼴 크기 : 12px; 글꼴 두께 : 굵게}
+# article-list # article-list-category> a : hover {애니메이션 : 무한 AquaLinkBG 1.5s; }
+
+/ * 카테고리 배경 * /
+# article-list # article-list-category {border-top : 3px solid var (-color-4); 배경 : -webkit-linear-gradient (45deg, var (-color-5) 0 %, var (-color-5) 80 %, var (-color-3) 100 %); }
+
+# article-reply-area # reply-real-area .reply> .reply-header {background : var (-color-5); }
+# article-reply-area> .header h5 {font-size : 14px; 색상 : var (-color-4); 글꼴 두께 : 굵게; }
+
+/ * 형광펜처럼 * /
+# article-list> .article-list-row> .item> .list-header> span {background-color : var (-color-4); 색상 : var (-color-1); 글꼴 두께 : 굵게; 패딩 : 1px 5px; 글꼴 크기 : 11px; border-radius : 100px}
+/ * # article-list> .article-list-row> .item> .list-header.v10> span {background-color : var (-color-4); 색상 : #fff; 글꼴 두께 : 굵게; 패딩 : 1px 5px; 글꼴 크기 : 11px; border-radius : 100px} * /
+
+/ * 시청자 * /
+# board-info # viewers-area #viewers : before {content : var (-pre-comment); 커서 : 텍스트; }
+# board-info # viewers-area #viewers : after {content : var (-sub-comment); 커서 : 텍스트; }
+
+/ * 프로필 테두리 * /
+# board-info # board-info-profile-img {border : 2px solid var (-color-4); 테두리 반경 : 30 %; 너비 : 50px; 높이 : 50px; }
+
+/ * 뷰어 박스의 배지 * /
+# board-info # viewers-area .fa-user : before {color : rgba (95,02,22,0); 내용 : var (-icon-URL); }
+
+/ * ButtonAnim * /
+.btn-primary {배경 : var (-color-4); 테두리 색상 : var (-color-1); }
+.btn-primary : hover {애니메이션 : 무한 rainbowLinkBG 3s; }
+
+/ * 키 프레임 애니메이션 * /
+@keyframes rainbowLink {
+  000 % {색상 : var (-color-0); }
+  010 % {색상 : var (-color-1); }
+  020 % {색상 : var (-color-2); }
+  030 % {색상 : var (-color-3); }
+  040 % {색상 : var (-color-4); }
+  050 % {색상 : var (-color-5); }
+  060 % {색상 : var (-color-4); }
+  070 % {색상 : var (-color-3); }
+  080 % {색상 : var (-color-2); }
+  090 % {색상 : var (-color-1); }
+  100 % {색상 : var (-color-0); }
+}
+@keyframes rainbowLinkBG {
+  000 % {배경색 : var (-color-0); }
+  010 % {배경색 : var (-color-1); }
+  020 % {배경색 : var (-color-2); }
+  030 % {배경색 : var (-color-3); }
+  040 % {배경색 : var (-color-4); }
+  050 % {배경색 : var (-color-5); }
+  060 % {배경색 : var (-color-4); }
+  070 % {배경색 : var (-color-3); }
+  080 % {배경색 : var (-color-2); }
+  090 % {배경색 : var (-color-1); }
+  100 % {배경색 : var (-color-0); }
+}
+@keyframes AquaLinkBG {
+    0 % {배경색 : var (-color-5); }
+    40 % {배경색 : var (-color-4); }
+    100 % {배경색 : var (-color-5); }
+}
+@keyframes anim_hovered_background {
+    0 % {배경색 : var (-color-1); }
+    1 % {배경색 : var (-color-5); }
+}
+  
